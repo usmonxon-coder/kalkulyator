@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: chartreuse;
+}
+.section1 {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    .boxes {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 100px;
+      background-color: rgb(5, 5, 41);
+      opacity: 0.98;
+      box-shadow: 0 0 30px 0.9px black;
+      border-radius: 18px;
+      .myInput {
+        width: 100%;
+        height: 70px;
+        font-size: 30px;
+        color: slateblue;
+        margin-bottom: 10px;
+        border-radius: 17px 17px 0 0 ;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgba(192, 192, 192, 0.425);
+        border: none;
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-bottom: 10px;
+        font-size: 27px;
+        outline: none;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transition: 0.2s;
+        .tozala {
+          background-color: red;
+          padding: 16px 22px;
+          border-radius: 50%;
+        }
+        &:hover {
+          background-color: rgb(204, 133, 133);
+        }
+      }
+    }
+  }
+}

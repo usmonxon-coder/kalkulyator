@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: chartreuse;
+}
+
+.section1 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section1 .container .boxes {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #050529;
+  opacity: 0.98;
+  -webkit-box-shadow: 0 0 30px 0.9px black;
+          box-shadow: 0 0 30px 0.9px black;
+  border-radius: 18px;
+}
+
+.section1 .container .boxes .myInput {
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  color: slateblue;
+  margin-bottom: 10px;
+  border-radius: 17px 17px 0 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section1 .container .boxes button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(192, 192, 192, 0.425);
+  border: none;
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+  font-size: 27px;
+  outline: none;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.section1 .container .boxes button .tozala {
+  background-color: red;
+  padding: 16px 22px;
+  border-radius: 50%;
+}
+
+.section1 .container .boxes button:hover {
+  background-color: #cc8585;
+}
+/*# sourceMappingURL=style.css.map */
